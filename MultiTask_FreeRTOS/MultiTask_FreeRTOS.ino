@@ -1,7 +1,9 @@
 // Simple demo of three threads
 // LED blink thread, print thread, and idle loop
+//the library for freertos needs to be installed from github
 #include <FreeRTOS_AVR.h>
 #include <Wire.h>
+//this library also needs to be hunted down and installed 
 #include <LiquidCrystal_I2C.h>
 
 const uint8_t LED_PIN = 13;
